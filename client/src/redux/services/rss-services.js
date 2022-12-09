@@ -49,6 +49,7 @@ export const axiosDelRss = createAsyncThunk(
 
         if (response.statusText === 'OK'){
             dispatch(delRss(linkId));
+            dispatch( setDocsList([]) )
         }
 
       } catch (e) {
