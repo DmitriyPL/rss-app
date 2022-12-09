@@ -1,0 +1,42 @@
+@import "../../assets/scss/utils/vars.scss";
+@import "../../assets/scss/utils/mixins.scss";
+
+.addform {  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: rem(30) ;
+
+    .addform__input {
+
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin: rem(10);
+
+      .addform__input-item {
+        border: 2px solid #d89228;
+        border-radius: 5px;
+      }
+    }      
+
+    .addform__btn {
+
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin: rem(10);
+
+      .addform__btn-item {
+        
+        font-family: "Roboto", serif;
+        font-weight: 300;
+        font-size: rem(16);
+
+        border: 2px solid #0a0702;
+        border-radius: 5px;
+      }
+
+    }
+}

@@ -1,0 +1,22 @@
+@import "utils/vars";
+@import "utils/mixins";
+
+// Modules
+// -----
+//
+
+body {
+  background-color: $default-color;
+}
+
+main {
+  max-width: rem(1280);
+  min-width: rem(480);
+  margin: rem(16) auto;
+}
+
+section {
+  text-align: center;
+}
+
+

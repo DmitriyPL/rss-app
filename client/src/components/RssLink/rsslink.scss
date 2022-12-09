@@ -1,0 +1,106 @@
+@import "../../assets/scss/utils/vars.scss";
+@import "../../assets/scss/utils/mixins.scss";
+
+.rss {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: rem(10);
+
+  border: 2px solid #d89228;
+  border-radius: 5px;
+  padding: rem(6);
+  
+  cursor: pointer;
+
+    .rss__link {
+
+      font-family: "Roboto", serif;
+      font-size: rem(16);
+
+    }
+
+    .rss__btn {
+
+      .rss__btn-del {
+        font-family: "Roboto", serif;
+        font-weight: 200;
+
+        background-color: white;
+        border: 2px solid #ee0606;
+        border-radius: 5px;
+        
+        cursor: pointer;
+
+        margin: rem(10);
+      }
+
+      .rss__btn-update {
+        font-family: "Roboto", serif;
+        font-weight: 200;
+
+        background-color: white;
+        border: 2px solid #288d28;
+        border-radius: 5px;
+        
+        cursor: pointer;
+        
+        margin: rem(10);
+      }
+
+    }
+}
+
+.rss-active {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: rem(10);
+
+  border: 2px solid #c22199;
+  border-radius: 5px;
+  padding: rem(6);
+  
+  cursor: pointer;
+
+    .rss__link {
+
+      font-family: "Roboto", serif;
+      font-size: rem(16);
+
+    }
+
+    .rss__btn {
+
+      .rss__btn-del {
+        font-family: "Roboto", serif;
+        font-weight: 200;
+
+        background-color: white;
+        border: 2px solid #ee0606;
+        border-radius: 5px;
+        
+        cursor: pointer;
+
+        margin: rem(10);
+      }
+
+      .rss__btn-update {
+        font-family: "Roboto", serif;
+        font-weight: 200;
+
+        background-color: white;
+        border: 2px solid #288d28;
+        border-radius: 5px;
+        
+        cursor: pointer;
+        
+        margin: rem(10);
+      }
+
+    }
+}
